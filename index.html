@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>TechSpace-HomeWork-3</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tech Space Registration Form</h1>
+      <p>Fill out the form to register for our courses</p>
+    </header>
+    <section>
+      <div class="overlay"></div>
+    </section>
+    <section>
+      <div class="register_form">
+        <form action="#">
+          <label for="name">Name:</label><br />
+          <input
+            class="name"
+            type="text"
+            id="name"
+            name="fname"
+            placeholder="Your name"
+          /><br />
+          <label for="email">Email:</label><br />
+          <input
+            class="email"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+          />
+          <br />
+          <label for="number">Your age:</label><br />
+          <input
+            class="age"
+            type="number"
+            id="number"
+            name="age"
+            placeholder="Your age"
+          /><br />
+
+          <label for="courses">Choose a courses:</label><br />
+          <select
+            class="courses"
+            name="courses"
+            id="courses"
+            form="coursesform"
+          >
+            <option value="Select Current Role">Select current role</option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="mobile development">Mobile Development</option>
+            <option value="IT">IT Engineer</option></select
+          ><br />
+          <label for="">Gender:</label><br />
+          <input type="radio" id="mail" name="fav_language" value="mail" />
+          <label for="mail">Mail</label><br />
+          <input type="radio" id="femail" name="fav_language" value="femail" />
+          <label for="femail">Fe Mail</label><br /><br />
+
+          <label for="languge">Choose your favorite language:</label><br />
+          <select
+            class="language"
+            name="language"
+            id="language"
+            form="languageform"
+          >
+            <option value="Select Current Role">Select current role</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JAVASCRIPT">Javascript</option>
+            <option value="PHP">PHP</option></select
+          ><br />
+
+          <label for="">Mark your Skills:</label><br />
+          <input type="checkbox" id="skill1" name="skill1" value="HTML" />
+          <label for="skill1"> HTML</label><br />
+          <input type="checkbox" id="skill2" name="skill2" value="CSS" />
+          <label for="skill2"> CSS</label><br />
+          <input type="checkbox" id="skill3" name="skill3" value="Javascript" />
+          <label for="skill3">Javascript</label><br /><br />
+
+          <label for="comment">Any comments or suggestions?</label><br /><br />
+          <textarea
+            class="comment"
+            id="comment"
+            rows="4"
+            cols="50"
+            name="comment"
+            form="usrform"
+            placeholder="enter comment..."
+          >
+          </textarea
+          ><br />
+          <input class="submit" type="submit" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
